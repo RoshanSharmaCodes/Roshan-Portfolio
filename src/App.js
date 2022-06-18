@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import Navbar from './Components/Navbar/navbar';
 import './App.css';
-
+import 'antd/dist/antd.min.css';
+import LandingPage from './Components/LandingPage/landingPage';
+import Work from './Components/Work/Work';
+import About from './Components/About/About';
+import Testimonials from './Components/Testimonials/Testimonials';
+import Social from './Components/Social/Social';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <LandingPage/>
+      <About/>
+      <Work/>
+      <Testimonials/>
+      <Social/>
     </div>
   );
 }

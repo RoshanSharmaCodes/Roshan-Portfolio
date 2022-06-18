@@ -1,0 +1,131 @@
+.homeContainer{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: alice;
+}
+
+.scrollIconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80px;
+}
+
+.triangle{
+
+    border-left: 40px solid transparent;
+    border-top: 40px solid blueviolet;
+    border-right: 40px solid transparent;
+    border-bottom: 0px;
+    animation-name: bounceTriangle;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounceTriangle {
+    0%{
+        position: relative;
+        top:0px;
+    }
+    100%{
+        position: relative;
+        top:30px;
+    }
+}
+
+.container {
+  text-align: center;
+}
+h1 {
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.button {
+  width: 200px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 300;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button-2 {
+  color: #fff;
+  border: 3px solid blueviolet;
+  background-image: -webkit-linear-gradient(30deg, blueviolet 50%, transparent 50%);
+  background-image: linear-gradient(30deg, blueviolet 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-2:hover {
+  background-position: 100%;
+  color: blueviolet;
+}
+
+
+
+.homeLeft{
+    flex:5;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+
+.introText{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    line-height: 50px;
+    border: 20px solid blueviolet;
+    border-left: 0;
+    padding-top:50px;
+    padding-bottom: 30px;
+    padding-right:30px;
+}
+
+.span1{
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Quicksand;
+}
+.span2{
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Quicksand;
+}
+.firstLetter{
+    font-size: 60px;
+}
+
+.homeRight{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.homeImg{
+    height: 400px;
+    width: 500px;
+}
