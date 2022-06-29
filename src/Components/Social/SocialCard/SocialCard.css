@@ -1,0 +1,65 @@
+.socialCard {
+  display: flex;
+  gap: 50px;
+  padding: 40px;
+  height: 280px;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.linkedin {
+  border-color: #006bb3 !important;
+}
+
+.github {
+  border-color: black !important;
+}
+
+.leetcode {
+  border-color: #f09d0e !important;
+}
+
+.twitter {
+  border-color: #3ab0ff !important;
+}
+
+.mainCard {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: white;
+  border: 10px solid #3ab0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 2s;
+}
+
+.cardTitle {
+  width: 100%;
+  height: 35px;
+  font-family: Quicksand;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.cardIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cardIconImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mainCard:hover {
+  transform: scale(1.3);
+}
