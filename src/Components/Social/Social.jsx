@@ -3,7 +3,7 @@ import SocialCard from "./SocialCard/SocialCard";
 const Social = () => {
   return (
     <>
-    <div className="socialContainer">
+    <div id="Social" className="socialContainer">
         <div className="titleDivSocial">
             <span>Get Me On Social Media</span>
         </div>

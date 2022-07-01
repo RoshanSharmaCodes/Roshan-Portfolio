@@ -4,7 +4,7 @@ import { Carousel } from "antd";
 const About = () => {
   return (
     <>
-      <div className="aboutContainer">
+      <div id="About" className="aboutContainer">
           <span className="headerText">About Me</span>
           <div className="aboutCard">
           

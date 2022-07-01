@@ -1,9 +1,10 @@
+import Gallery from "../PhotoGallery/Gallery";
 import "./Work.css";
 const Work = ()=>{
     return(
         <>
-        <div className="workContainer">
-        
+        <div id="Work" className="workContainer">
+        <Gallery/>
         </div>
         </>
     );

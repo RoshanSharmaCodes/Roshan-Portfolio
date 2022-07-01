@@ -1,0 +1,57 @@
+.mainWorkCard {
+  display: flex;
+  width: 800px;
+  height: 350px;
+  background-color: white;
+  border-radius: 20px;
+  transition:1s ease-in-out;
+}
+
+.mainWorkCard:hover{
+    transform: scale(1.2);
+}
+
+.workDesc {
+  flex: 3;
+  background-color: lightblue;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.demoImg{
+    height: 340px;
+    width: 490px;
+}
+.workDemoImg {
+  flex: 5;
+  background-color: white;
+  border-left: 3px solid darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.workTitle {
+  flex: 3;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: QuickSand;
+  font-size: 18px;
+  border-bottom: 3px solid darkgray;
+}
+
+.workDetails {
+  flex: 12;
+  background-color: white;
+  text-align: left;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  font-family: QuickSand;
+  font-weight: bold;
+}

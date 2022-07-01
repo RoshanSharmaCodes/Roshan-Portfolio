@@ -1,0 +1,12 @@
+.naviIcon{
+    width:40px;
+    height: 40px;
+    margin:20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.galleryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

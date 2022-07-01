@@ -20,16 +20,16 @@ const Navbar = () => {
           <a href="#" className="btnMenu">
             Home
           </a>
-          <a href="#" className="btnMenu">
+          <a href="#About" className="btnMenu">
             About
           </a>
-          <a href="#" className="btnMenu">
+          <a href="#Work" className="btnMenu">
             Work
           </a>
-          <a href="#" className="btnMenu">
+          <a href="#Testimonials" className="btnMenu">
             Testimonials
           </a>
-          <a href="#" className="btnMenu">
+          <a href="#Social" className="btnMenu">
             Social
           </a>
           <button className="btnMenu" onClick={showModal}>Contact</button>
