@@ -2,27 +2,29 @@
   display: flex;
   width: 800px;
   height: 350px;
-  background-color: white;
+  background-color: #32d15d;
   border-radius: 20px;
-  transition:1s ease-in-out;
+  transition: 1s ease-in-out;
+  border: 1px solid grey;
 }
 
-.mainWorkCard:hover{
-    transform: scale(1.2);
+.mainWorkCard:hover {
+  transform: scale(1.2);
 }
 
 .workDesc {
   flex: 3;
-  background-color: lightblue;
+  background-color: #32d15d;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
   display: flex;
   flex-direction: column;
 }
 
-.demoImg{
-    height: 340px;
-    width: 490px;
+.demoImg {
+  height: 340px;
+  width: 490px;
+  border-radius: 20px;
 }
 .workDemoImg {
   flex: 5;
@@ -31,7 +33,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding: 10px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .workTitle {

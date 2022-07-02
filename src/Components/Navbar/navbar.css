@@ -8,6 +8,12 @@
     z-index: 10;
 }
 
+.hamMenu{
+    width: 40px;
+    height: 40px;
+    visibility: hidden;
+}
+
 .headerText{
     color: white;
     font-family: Quicksand;
@@ -47,4 +53,37 @@
 .btnMenu:hover{
     background-color: white;
     color: blueviolet;
+}
+
+@media only screen and (max-width:1215px){
+    .navContainer{
+        position: relative;
+        width: 100%;
+    }
+    .headingText{
+        display: none;
+    }
+    .navRight{
+        position: absolute;
+        flex-direction: column;
+        height: 700px;
+        width: 200px;
+        float: left;
+        top:60px;
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        visibility: hidden;
+    }
+
+    .navLeft{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .hamMenu{
+        visibility: visible;
+    }
 }

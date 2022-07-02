@@ -5,18 +5,20 @@ import { useState } from "react";
 
 
 const Navbar = () => {
-  const [visible,setVisible] = useState(false);
-  const showModal = () =>{
-      setVisible(true);
+  const [visible,setVisible] = useState(1);
+  const hamMenu = () =>{
+      setVisible(!visible);
   }
+
   return (
     <>
       <div className="navContainer">
         <div className="navLeft headerText">
-          My Portfolio
+          <span className="headingText">My Portfolio</span>
+          <img src="./Assets/menu.svg" alt="menu" onClick={hamMenu} className="hamMenu"/>
         </div>
         <div className="navMid"></div>
-        <div className="navRight">
+        <div className="navRight" style={{visibility:visible?"visible":"hidden"}}>
           <a href="#" className="btnMenu">
             Home
           </a>
@@ -32,7 +34,7 @@ const Navbar = () => {
           <a href="#Social" className="btnMenu">
             Social
           </a>
-          <button className="btnMenu" onClick={showModal}>Contact</button>
+          <button className="btnMenu" >Contact</button>
         </div>
         {/* <ContactModal visiblility={visible}/> */}
       </div>

@@ -1,17 +1,162 @@
-.aboutContainer{
+.aboutContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #30aadd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutCard {
+  width: 1100px;
+  margin-top: 10px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 4px 3px 16px 15px rgb(75, 74, 74);
+  display: flex;
+}
+
+.aboutImg {
+  flex: 3;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.profileImg {
+  width: 100%;
+  border-top-left-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 5;
+}
+
+.profileDesc {
+  background-color: white;
+  flex: 5;
+  width: 100%;
+  font-family: QuickSand;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-left-radius: 20px;
+}
+.aboutStatus {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 2px solid #212121;
+}
+
+
+.profileCircle {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+.prmButton {
+  margin-top: 20px;
+  background-color: #0c8ced;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.aboutDetails {
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-left: 2px solid gray;
+}
+
+.aboutTitle {
+  flex: 2;
+  width: 100%;
+  display: flex;
+  border:0;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0c8ced;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border-top-right-radius: 20px;
+}
+
+.profilePic{
+    width: 200px;
+    height: 200px;
+    border-radius:20px;
+    object-fit: cover;
+}
+
+.ml {
+  margin-left: 20px;
+}
+.aboutSummary {
+  flex: 10;
+  text-align: left;
+  width: 500px;
+  padding: 10px;
+  word-wrap: break-word;
+  font-size: large;
+  font-family: Quicksand;
+  font-weight: 1000;
+}
+
+
+@media only screen and (max-width:720px){
+  .aboutContainer{
+    width: 100vw;
+    justify-content: flex-start;
+  }
+  .aboutCard{
+    flex-direction: column;
+    width: 600px;
+    height: 780px;
+  }
+  .profileCircle{
+    margin-top:20px;
+  }
+  .aboutStatus{
+    flex-direction: row;
+    margin-top:20px;
+    justify-content: center;
+  }
+
+  .aboutDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+  }
+  .aboutTitle{
     width: 100%;
-    height: 100vh;
-    background-color: #30AADD;
+    border-radius: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-.aboutCard{
-    width: 1100px;
-    margin-top: 10px;
-    height: 500px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 4px 3px 16px 15px rgb(75, 74, 74);
+  }
 }
