@@ -29,7 +29,7 @@
 .workDemoImg {
   flex: 5;
   background-color: white;
-  border-left: 3px solid darkgray;
+  border-left: 1px solid darkgray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,6 @@
   font-weight: bold;
   font-family: QuickSand;
   font-size: 18px;
-  border-bottom: 3px solid darkgray;
 }
 
 .workDetails {
@@ -58,4 +57,30 @@
   padding: 10px;
   font-family: QuickSand;
   font-weight: bold;
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width:820px){
+.mainWorkCard{
+  width: 500px;
+  flex-direction: column;
+}
+.workDemoImg{
+  border-left:0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 0px;
+}
+.workDetails{
+  border-radius: 0;
+  height:500px;
+}
+.workDesc{
+  border-top-right-radius: 20px;
+}
+
+.demoImg{
+  height: 260px;
+}
+  
 }

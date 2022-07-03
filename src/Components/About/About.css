@@ -1,5 +1,5 @@
 .aboutContainer {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: #30aadd;
   display: flex;
@@ -131,10 +131,16 @@
     width: 100vw;
     justify-content: flex-start;
   }
+  .profileImg{
+    border-top-right-radius: 20px;
+  }
+  .aboutImg{
+      border-top-right-radius: 20px;
+  }
   .aboutCard{
     flex-direction: column;
     width: 600px;
-    height: 780px;
+    height: 650px;
   }
   .profileCircle{
     margin-top:20px;

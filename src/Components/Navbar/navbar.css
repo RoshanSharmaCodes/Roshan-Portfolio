@@ -6,6 +6,7 @@
     position: sticky;
     top:0;
     z-index: 10;
+    visibility: visible;
 }
 
 .hamMenu{
@@ -58,6 +59,8 @@
 @media only screen and (max-width:1215px){
     .navContainer{
         position: relative;
+        position: sticky;
+        top:0px;
         width: 100%;
     }
     .headingText{
@@ -67,7 +70,7 @@
         position: absolute;
         flex-direction: column;
         height: 700px;
-        width: 200px;
+        width: 300px;
         float: left;
         top:60px;
         background-color: blueviolet;
@@ -80,7 +83,7 @@
 
     .navLeft{
         display: flex;
-        justify-content: flex-start;
+        justify-content: left;
         align-items: center;
     }
     .hamMenu{
