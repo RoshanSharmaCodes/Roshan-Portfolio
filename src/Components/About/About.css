@@ -166,3 +166,124 @@
     align-items: center;
   }
 }
+
+@media only screen and (max-width:412px){
+  .aboutContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+  .profileImg{
+    border-top-right-radius: 20px;
+  }
+  .aboutImg{
+      border-top-right-radius: 20px;
+  }
+  .aboutCard{
+    flex-direction: column;
+    width: 80vw;
+    height: 80px;
+    position:relative;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    right: 3%;
+
+  }
+  .profileCircle{
+    margin-top:20px;
+  }
+  .aboutStatus{
+    flex-direction: row;
+    margin-top:20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;;
+  }
+  .aboutTitle{
+    border-radius: 0;
+    width: 80vw;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerText{
+    text-align: center;
+    width: 100vw;
+  }
+  .aboutSummary{
+    width: 80vw;
+  }
+
+  .profilePic{
+    width: 200px;
+    height: 200px;
+    border-radius:20px;
+    object-fit: cover;
+}
+}
+
+@media only screen and (max-width:720px){
+  .aboutContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+  .profileImg{
+    border-top-right-radius: 20px;
+  }
+  .aboutImg{
+      border-top-right-radius: 20px;
+  }
+  .aboutCard{
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
+    position:relative;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    right: 3%;
+
+  }
+  .profileCircle{
+    margin-top:20px;
+  }
+  .aboutStatus{
+    flex-direction: row;
+    margin-top:20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;;
+  }
+  .aboutTitle{
+    border-radius: 0;
+    width: 80vw;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerText{
+    text-align: center;
+    width: 100vw;
+  }
+  .aboutSummary{
+    width: 80vw;
+  }
+}

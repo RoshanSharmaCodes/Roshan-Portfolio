@@ -66,3 +66,80 @@ figure.snip1390 .profile {
   margin-bottom: 10px;
   border: solid 5px #A6A57A;
 }
+
+
+@media screen and (max-width:720px) {
+  figure.snip1390 {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    height:  600px;
+    width: 88vw;
+  }
+
+  figure.snip1390 blockquote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 10px 10px;
+    margin-top: 20px;
+    height: 160px;
+    
+  }
+
+  figure.snip1390 .profile {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+  }
+
+  figure.snip1390 blockquote:before {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 44px;
+    opacity: 0.25;
+    font-style: normal;
+    top: 0px;
+    left: 5px;
+  }
+  
+}
+
+@media screen and (max-width:412px) {
+  figure.snip1390 {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    height:  600px;
+    width: 88vw;
+  }
+
+  figure.snip1390 blockquote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 10px 10px;
+    margin-top: 20px;
+    height: 160px;
+    
+  }
+
+  figure.snip1390 .profile {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+  }
+
+  figure.snip1390 blockquote:before {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 44px;
+    opacity: 0.25;
+    font-style: normal;
+    top: 0px;
+    left: 5px;
+  }
+  
+}

@@ -25,3 +25,51 @@
     color: white;
     width: 140px;
 }
+
+@media only screen and (max-width:412px){
+    .dataCard{
+        display: flex;
+        flex-direction: column;
+        border: 4px solid lightgray;
+        width: 150px;
+        height:100px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 10px;
+        margin-right: 10px;
+    
+    }
+    .dataCount{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #0c8ced;
+        color: white;
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width:720px){
+    .dataCard{
+        display: flex;
+        flex-direction: column;
+        border: 4px solid lightgray;
+        width: 150px;
+        height:100px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 10px;
+        margin-right: 10px;
+    
+    }
+    .dataCount{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #0c8ced;
+        color: white;
+        width: 130px;
+    }
+}

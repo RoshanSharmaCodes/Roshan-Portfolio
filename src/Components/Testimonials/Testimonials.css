@@ -19,3 +19,33 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width:720px) {
+    .testimonialsContainer{
+        justify-content: start;
+    }
+
+    .mainContainer{
+        display: flex;
+        align-items: center;
+        height: 90vh;
+        width: 88vw;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .testimonialsContainer{
+        justify-content: start;
+    }
+
+    .mainContainer{
+        display: flex;
+        align-items: center;
+        height: 90vh;
+        width: 88vw;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

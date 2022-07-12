@@ -84,3 +84,73 @@
 }
   
 }
+
+
+@media only screen and (max-width:412px){
+  .mainWorkCard{
+    width: 60vw;
+    height: 60vh;
+  }
+  .workDemoImg{
+    border-left:0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+    width: 60vw;
+    padding: 0;
+  }
+  .workDetails{
+    border-radius: 0;
+    height:500px;
+
+  }
+  .workDesc{
+    border-top-right-radius: 20px;
+    width: 60vw;
+  }
+  
+  .demoImg{
+    width: 60vw;
+    height: 20vh;
+  }
+    
+  .naviIcon{
+    position: relative;
+    top: 118px;
+  }
+  }
+  
+  @media only screen and (max-width:720px){
+    .mainWorkCard{
+      width: 60vw;
+      height: 60vh;
+    }
+    .workDemoImg{
+      border-left:0;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 0px;
+      width: 60vw;
+      padding: 0;
+    }
+    .workDetails{
+      border-radius: 0;
+      height:500px;
+  
+    }
+    .workDesc{
+      border-top-right-radius: 20px;
+      width: 60vw;
+    }
+    
+    .demoImg{
+      width: 60vw;
+      height: 20vh;
+    }
+      
+    .naviIcon{
+      position: relative;
+      top: 118px;
+    }
+    }
+    
