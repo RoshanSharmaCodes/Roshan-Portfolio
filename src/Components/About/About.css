@@ -127,10 +127,15 @@
 
 
 @media only screen and (max-width:720px){
-  .aboutContainer{
-    width: 100vw;
-    justify-content: flex-start;
-  }
+  .aboutCard {
+    flex-direction: column;
+    width: 70vw;
+    height: 70vh;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
   .profileImg{
     border-top-right-radius: 20px;
   }
@@ -143,8 +148,16 @@
     height: 650px;
   }
   .profileCircle{
-    margin-top:20px;
+    margin-top:10px;
+    width:150px;
+    height: 150px;
   }
+  .profilePic {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+}
   .aboutStatus{
     flex-direction: row;
     margin-top:20px;
@@ -152,6 +165,7 @@
   }
 
   .aboutDetails{
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,12 +178,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
   }
+
+  .prmButton {
+    margin-top: 10px;
+    background-color: #0c8ced;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
 }
 
 @media only screen and (max-width:412px){
   .aboutContainer{
     width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: flex-start;
     
@@ -224,8 +250,8 @@
   }
 
   .profilePic{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius:20px;
     object-fit: cover;
 }

@@ -6,13 +6,15 @@ import Work from './Components/Work/Work';
 import About from './Components/About/About';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Social from './Components/Social/Social';
+import Skills from './Components/Skills/Skills';
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <LandingPage/>
-      <About/>
+      <Skills/>
       <Work/>
+      <About/>
       <Testimonials/>
       <Social/>
     </div>

@@ -91,15 +91,15 @@
   }
   
   .cardIcon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
-  }
+}
   
   .cardIconImg {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
   }
@@ -136,18 +136,21 @@
   }
   
   .cardIcon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
-  .cardIconImg {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
+.cardIconImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
   
   .mainCard:hover {
     transform: scale(1.3);

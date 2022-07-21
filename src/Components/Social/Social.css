@@ -23,11 +23,10 @@
 }
 
 @media screen and (max-width:720px) {
-    .socialContainer{
+    .socialContainer {
         width: 100%;
-        height: 40vh;
+        height: 50vh;
     }
-
     .titleDivSocial{
         font-size:20px;
         width: 100vw;
@@ -41,7 +40,7 @@
 @media screen and (max-width:720px) {
     .socialContainer{
         width: 100%;
-        height: 40vh;
+        height: 50vh;
     }
 
     .titleDivSocial{
@@ -56,7 +55,7 @@
 @media screen and (max-width:412px) {
     .socialContainer{
         width: 100%;
-        height: 40vh;
+        height: 60vh;
     }
 
     .titleDivSocial{
