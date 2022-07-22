@@ -39,6 +39,9 @@ const Navbar = () => {
           <a href="#" className="btnMenu">
             Home
           </a>
+          <a href="#Skills" className="btnMenu">
+            Skills
+          </a>
           <a href="#About" className="btnMenu">
             About
           </a>
