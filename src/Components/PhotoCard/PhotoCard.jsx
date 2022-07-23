@@ -1,14 +1,14 @@
 import "./PhotoCard.css";
-const PhotoCard = ({counter}) => {
+const PhotoCard = ({counter,title,desc,image}) => {
   return (
     <>
       <div className="mainWorkCard">
         <div className="workDesc">
-          <div className="workTitle">HDFC Life Insurance</div>
-          <div className="workDetails">This is very big project that i have put my efforts on</div>
+          <div className="workTitle">{title}</div>
+          <div className="workDetails">{desc}</div>
         </div>
         <div className="workDemoImg">
-            <img src={"./assets/DemoImg/"+counter+".png"}  className="demoImg" alt="DemoImg"/>
+            <img src={image}  className="demoImg" alt="DemoImg"/>
         </div>
       </div>
     </>

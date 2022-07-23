@@ -7,6 +7,11 @@
   align-items: center;
   flex-direction: column;
 }
+.aboutMain{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 .aboutCard {
   width: 1100px;
   margin-top: 10px;
@@ -60,7 +65,6 @@
   border-left: 2px solid #212121;
 }
 
-
 .profileCircle {
   width: 200px;
   height: 200px;
@@ -79,6 +83,15 @@
   font-weight: bold;
   padding: 20px;
   cursor: pointer;
+  transition: 1.2s;
+}
+
+.prmButton:hover{
+  color:#0c8ced;
+  background-color: white;
+  border: 2px solid #0c8ced;
+  transition: 1s ease-in-out;
+  
 }
 
 .aboutDetails {
@@ -94,7 +107,7 @@
   flex: 2;
   width: 100%;
   display: flex;
-  border:0;
+  border: 0;
   justify-content: flex-start;
   align-items: center;
   background-color: #0c8ced;
@@ -104,11 +117,11 @@
   border-top-right-radius: 20px;
 }
 
-.profilePic{
-    width: 200px;
-    height: 200px;
-    border-radius:20px;
-    object-fit: cover;
+.profilePic {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .ml {
@@ -125,31 +138,36 @@
   font-weight: 1000;
 }
 
-
-@media only screen and (max-width:720px){
+@media only screen and (max-width: 1128px) {
   .aboutCard {
     flex-direction: column;
-    width: 70vw;
-    height: 70vh;
+    width: 100vw;
+    height: 100vh;
     position: relative;
     top: 40%;
     left: 40%;
-    transform: translate(-50%,-50%);
-}
-  .profileImg{
+    transform: translate(-50%, -50%);
+  }
+  .aboutMain{
+    margin-top:70px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .profileImg {
     border-top-right-radius: 20px;
   }
-  .aboutImg{
-      border-top-right-radius: 20px;
+  .aboutImg {
+    border-top-right-radius: 20px;
   }
-  .aboutCard{
+  .aboutCard {
     flex-direction: column;
     width: 600px;
     height: 650px;
   }
-  .profileCircle{
-    margin-top:10px;
-    width:150px;
+  .profileCircle {
+    margin-top: 10px;
+    width: 150px;
     height: 150px;
   }
   .profilePic {
@@ -157,14 +175,14 @@
     height: 150px;
     border-radius: 20px;
     object-fit: cover;
-}
-  .aboutStatus{
+  }
+  .aboutStatus {
     flex-direction: row;
-    margin-top:20px;
+    margin-top: 20px;
     justify-content: center;
   }
 
-  .aboutDetails{
+  .aboutDetails {
     visibility: hidden;
     display: flex;
     flex-direction: column;
@@ -172,7 +190,7 @@
     align-items: center;
     width: 600px;
   }
-  .aboutTitle{
+  .aboutTitle {
     width: 100%;
     border-radius: 0;
     display: flex;
@@ -189,127 +207,127 @@
     font-weight: bold;
     padding: 10px;
     cursor: pointer;
-}
+  }
 }
 
-@media only screen and (max-width:412px){
-  .aboutContainer{
+@media only screen and (max-width: 412px) {
+  .aboutContainer {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: flex-start;
-    
   }
-  .profileImg{
+  .profileImg {
     border-top-right-radius: 20px;
   }
-  .aboutImg{
-      border-top-right-radius: 20px;
+  .aboutImg {
+    border-top-right-radius: 20px;
   }
-  .aboutCard{
+  .aboutCard {
     flex-direction: column;
     width: 80vw;
     height: 80px;
-    position:relative;
+    position: relative;
     top: 40%;
     left: 40%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     right: 3%;
-
   }
-  .profileCircle{
-    margin-top:20px;
+  .profileCircle {
+    margin-top: 20px;
   }
-  .aboutStatus{
+  .aboutStatus {
     flex-direction: row;
-    margin-top:20px;
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
   }
 
-  .aboutDetails{
+  .aboutDetails {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;;
+    width: 80vw;
   }
-  .aboutTitle{
+  .aboutTitle {
     border-radius: 0;
-    width: 80vw;;
+    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .headerText{
+  .headerText {
     text-align: center;
     width: 100vw;
   }
-  .aboutSummary{
+  .aboutSummary {
     width: 80vw;
   }
 
-  .profilePic{
+  .profilePic {
     width: 150px;
     height: 150px;
-    border-radius:20px;
+    border-radius: 20px;
     object-fit: cover;
-}
+  }
+
+  .profileDesc{
+    font-size: 15px;
+  }
 }
 
-@media only screen and (max-width:720px){
-  .aboutContainer{
+@media only screen and (max-width: 1128px) {
+  .aboutContainer {
     width: 100vw;
     display: flex;
     justify-content: flex-start;
-    
   }
-  .profileImg{
+  .profileImg {
     border-top-right-radius: 20px;
   }
-  .aboutImg{
-      border-top-right-radius: 20px;
+  .aboutImg {
+    border-top-right-radius: 20px;
   }
-  .aboutCard{
+  .aboutCard {
     flex-direction: column;
     width: 80vw;
     height: 80vh;
-    position:relative;
+    position: relative;
     top: 40%;
     left: 40%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     right: 3%;
-
   }
-  .profileCircle{
-    margin-top:20px;
+  .profileCircle {
+    margin-top: 20px;
   }
-  .aboutStatus{
+  .aboutStatus {
     flex-direction: row;
-    margin-top:20px;
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
   }
 
-  .aboutDetails{
+  .aboutDetails {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;;
+    width: 80vw;
   }
-  .aboutTitle{
+  .aboutTitle {
     border-radius: 0;
-    width: 80vw;;
+    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .headerText{
+  .headerText {
     text-align: center;
     width: 100vw;
   }
-  .aboutSummary{
+  .aboutSummary {
     width: 80vw;
   }
 }

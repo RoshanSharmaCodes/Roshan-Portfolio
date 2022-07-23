@@ -1,5 +1,6 @@
 import "./Social.css";
 import SocialCard from "./SocialCard/SocialCard";
+import data from  "../../Data/SocialCard.jsx"
 const Social = () => {
   return (
     <>
@@ -7,7 +8,7 @@ const Social = () => {
         <div className="titleDivSocial">
             <span>Get Me On Social Media</span>
         </div>
-        <div className="mainSocial">
+        <div className="mainSocial reveal">
         <SocialCard/>
         </div>
     </div>

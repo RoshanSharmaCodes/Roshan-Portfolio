@@ -5,7 +5,25 @@
     border-radius: 50%;
     cursor: pointer;
 }
+.mobileController{
+    height: 100px;
+    display: flex;
+    position: absolute;
+    bottom: 170px;
+}
+
+.hidden{
+    visibility: hidden;
+}
 .galleryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.galleryMain{
     display: flex;
     justify-content: center;
     align-items: center;

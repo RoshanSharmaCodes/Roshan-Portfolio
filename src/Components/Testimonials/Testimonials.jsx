@@ -1,5 +1,6 @@
-import TestimonialCard from "./TestimonialCard/TestimonialCard";
 import "./Testimonials.css";
+import data from "../../Data/TestimonialCardData.jsx"
+import TestimonialCard from "./TestimonialCard/TestimonialCard";
 const Testimonials = () => {
   return (
     <>
@@ -7,8 +8,12 @@ const Testimonials = () => {
         <div className="titleDiv">
           <span>Testimonials</span>
         </div>
-        <div className="mainContainer">
-          <TestimonialCard />
+        <div className="mainContainer reveal">
+          {
+            data.map((res)=>{
+              return <TestimonialCard name={res.name} title={res.title} image={res.image} review={res.review}/>
+            })
+          }
         </div>
       </div>
     </>

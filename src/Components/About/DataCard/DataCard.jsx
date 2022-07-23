@@ -1,11 +1,11 @@
 import "./DataCard.css";
 
-const DataCard = () => {
+const DataCard = ({title,count}) => {
   return (
     <>
       <div className="dataCard">
-        <div className="dataHeading">Project's Done</div>
-        <div className="dataCount">10+</div>
+        <div className="dataHeading">{title}</div>
+        <div className="dataCount">{count}+</div>
       </div>
     </>
   );

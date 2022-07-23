@@ -2,29 +2,23 @@
   display: flex;
   width: 800px;
   height: 350px;
-  background-color: #32d15d;
+  background-color: white;
   border-radius: 20px;
   transition: 1s ease-in-out;
-  border: 1px solid grey;
-}
-
-.mainWorkCard:hover {
-  transform: scale(1.2);
+  border: 20px solid #7F5283;
 }
 
 .workDesc {
   flex: 3;
   background-color: #32d15d;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
   display: flex;
   flex-direction: column;
 }
 
 .demoImg {
-  height: 340px;
-  width: 490px;
-  border-radius: 20px;
+  height: 310px;
+  width: 510px;
+  border-radius: 0px;
 }
 .workDemoImg {
   flex: 5;
@@ -33,9 +27,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 .workTitle {
@@ -53,7 +44,6 @@
   flex: 12;
   background-color: white;
   text-align: left;
-  border-bottom-left-radius: 20px;
   padding: 10px;
   font-family: QuickSand;
   font-weight: bold;
@@ -63,22 +53,17 @@
 @media only screen and (max-width:820px){
 .mainWorkCard{
   width: 500px;
+  height: 500px;
   flex-direction: column;
 }
 .workDemoImg{
-  border-left:0;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 0px;
+  display: flex;
+  align-items: flex-end;
 }
 .workDetails{
   border-radius: 0;
   height:500px;
 }
-.workDesc{
-  border-top-right-radius: 20px;
-}
-
 .demoImg{
   height: 260px;
 }
@@ -105,8 +90,7 @@
 
   }
   .workDesc{
-    border-top-right-radius: 20px;
-    width: 60vw;
+    width: 100%;
   }
   
   .demoImg{
@@ -116,21 +100,18 @@
     
   .naviIcon{
     position: relative;
-    top: 118px;
+    top: 138px;
   }
   }
   
   @media only screen and (max-width:720px){
     .mainWorkCard{
-      width: 60vw;
+      width: 350px;
       height: 60vh;
     }
     .workDemoImg{
-      border-left:0;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-right-radius: 0px;
-      width: 60vw;
+      width: 310px;
+      height: 250px;
       padding: 0;
     }
     .workDetails{
@@ -139,18 +120,17 @@
   
     }
     .workDesc{
-      border-top-right-radius: 20px;
-      width: 60vw;
+      width: 100%;
     }
     
     .demoImg{
-      width: 60vw;
-      height: 20vh;
+      width: 100%;
+      height: 30vh;
     }
       
     .naviIcon{
       position: relative;
-      top: 118px;
+      top: 138px;
     }
     }
     

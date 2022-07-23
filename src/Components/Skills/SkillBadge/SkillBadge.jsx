@@ -1,16 +1,18 @@
 import "./SkillBadge.css";
 
-const SkillBadge = () => {
+const SkillBadge = ({title,image}) => {
   return (
     <>
       <div className="badgeContainer">
         <div className="badgeBox">
           <div class="glow">
-            <div class="mainCircle"></div>
+            <div class="mainCircle">
+              <img src={image} alt={title} className="badgeImg" />
+            </div>
           </div>
         </div>
         <div className="badgeTitle">
-          <span className="badgeSpan">DevOps</span>
+          <span className="badgeSpan">{title}</span>
         </div>
       </div>
     </>

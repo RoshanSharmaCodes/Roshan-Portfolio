@@ -190,12 +190,13 @@ h1 {
         line-height: 45px;
         border: 15px solid blueviolet;
         border-left: 0;
-        padding-top: 40px;
+        padding-top: 20px;
         padding-bottom: 30px;
         padding-right: 0px;
         position: relative;
         right: 6px;
         width: 400px;
+        height: 220px;
     }
 
     .firstLetter {
@@ -224,19 +225,21 @@ h1 {
     .homeLeft{
         height: 40vh;
         width: 100vw;    
-        margin: 0;    
+        display: flex; 
+        align-items: flex-start;
     }
     
     .introText{
         line-height: 45px;
         border: 15px solid blueviolet;
         border-left: 0;
-        padding-top:40px;
+        padding-top:10px;
         padding-bottom: 30px;
         padding-right:0px;
         position: relative;
         right: 6px;
-        width:400px
+        width:400px;
+        height:200px;
     }
 
     .firstLetter {

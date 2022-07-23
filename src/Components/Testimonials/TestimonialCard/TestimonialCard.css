@@ -57,6 +57,7 @@ figure.snip1390 blockquote {
   box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
   text-align: left;
   position: relative;
+  height: 200px;
 }
 figure.snip1390 blockquote:before {
   font-family: "FontAwesome";
@@ -90,15 +91,15 @@ figure.snip1390 .profile {
   figure.snip1390 h2 {
     color: #ffffff;
     font-size: 20px;
-}
+  }
 
   figure.snip1390 blockquote {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0px 10px 10px 10px;
-    margin-top: 20px;
-    height: 100px;
+    margin-top: 10px;
+    height: 90px;
   }
 
   figure.snip1390 .profile {
@@ -106,7 +107,7 @@ figure.snip1390 .profile {
     width: 50px;
     position: absolute;
     margin-left: 10px;
-    margin-top:5px;
+    margin-top: 5px;
   }
 
   figure.snip1390 blockquote:before {
@@ -150,11 +151,11 @@ figure.snip1390 .profile {
     margin-left: 10px;
   }
 
-  figure.snip1390 *, figure.snip1390 *, figure.snip1390 *:after {
+  figure.snip1390 *,
+  figure.snip1390 *,
+  figure.snip1390 *:after {
     box-sizing: border-box;
     height: 20px;
     transition: all 0.35s ease;
-}
-
-
+  }
 }
